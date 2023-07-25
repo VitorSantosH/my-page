@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import About from "../about/About";
 import Bricks from "../bricks/Bricks";
+import Ofertas from "../ofertas/Ofertas";
 
 
 const Home = props => {
@@ -32,8 +33,9 @@ const Home = props => {
                     </div>
 
                 </div>
-
+              
                 <Bricks />
+                <Ofertas/>
 
                 <div className="about" id="about">
 

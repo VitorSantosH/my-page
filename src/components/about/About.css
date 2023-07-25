@@ -62,4 +62,8 @@
     .skils  {
         max-width: 80vw;
     }
+    .aboutMe {
+        max-width: 80vw;
+        margin-bottom: 3rem;
+    }
 }
