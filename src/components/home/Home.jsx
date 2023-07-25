@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import About from "../about/About";
+import Bricks from "../bricks/Bricks";
 
 
 const Home = props => {
@@ -8,24 +9,31 @@ const Home = props => {
     return (
 
         <>
+            <section id="Home">
+                
+            </section>
             <div className="home" >
 
                 <div className="apresentacao">
-                    <h1 id="Home">
+                    <h1 >
                         BEM VINDO
                     </h1>
 
                     <h3>
-                        Meu nome é Vítor Henrique, sou um desenvolvedor Web focado em Frontend, construindo o Frontend de sites e aplicativos da Web, com foco no sucesso do produdo.
+                        Meu nome é Vítor Henrique, sou um desenvolvedor Web, crio para você um site bonito e que gera resultados, com um excelente custo-benefício
                     </h3>
 
+                    <h3>
+                        Entre em contato comigo e faça um orçamento
+                    </h3>
 
                     <div className="btnGeral">
-                        Projetos
+                        WhatsApp
                     </div>
 
                 </div>
 
+                <Bricks />
 
                 <div className="about" id="about">
 

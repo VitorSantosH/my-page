@@ -1,0 +1,90 @@
+.bricks {
+    background-color: #434343;
+    color: rgba(245, 245, 245, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.redText {
+    color: rgb(237, 53, 53);
+}
+
+.bricks div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    width: 20vw;
+    text-align: start;
+    margin: 20px;
+}
+
+.bricks div h1 {
+    text-align: start;
+}
+
+.setaDupla {
+    display: flex;
+    width: 100%;
+    background-color: #434343;
+    max-height: 70px;
+    padding: 1rem;
+    justify-content: center;
+}
+.setaDupla  img {
+    max-height: 100%;
+    width: 70px;
+}
+
+.bricksRec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    justify-content: center;
+    background-color:  rgba(245, 245, 245, 1);
+}
+
+.brick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 18vw;
+    max-height: 25vh;
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.bricksContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding: 0 3rem;
+}
+.light {
+    background-color: rgba(190, 190, 190, 0.7);
+}
+.brick img {
+    height: 50px;
+    width: auto;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+
+    .bricksRec h1 {
+        font-size: 2rem;
+    }
+    .brick {
+        
+        max-width: 60vw
+    }
+}

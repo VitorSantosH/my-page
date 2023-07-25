@@ -28,25 +28,49 @@ const Header = props => {
 
                 <div className="containerLinks">
 
-                    <div className="links">
+                    <div
+                        className="links"
+                        onClick={e => {
+                            console.log('ppk')
+                            return window.location.href = "#Home"
+                        }}
+                    >
                         <a href="#Home">
                             HOME
                         </a>
                     </div>
 
-                    <div className="links">
+                    <div
+                        className="links"
+                        onClick={e => {
+                            console.log('ppk')
+                            return window.location.href = "#About"
+                        }}
+                    >
                         <a href="#About">
                             ABOUT
                         </a>
                     </div>
 
-                    <div className="links">
+                    <div
+                        className="links"
+                        onClick={e => {
+                            console.log('ppk')
+                            return window.location.href = "#PROJETOS"
+                        }}
+                    >
                         <a href="#PROJETOS">
                             PROJETOS
                         </a>
 
                     </div>
-                    <div className="links">
+                    <div
+                        className="links"
+                        onClick={e => {
+                            console.log('ppk')
+                            return window.location.href = "#CONTATO"
+                        }}
+                    >
                         <a href="#CONTATO">
                             CONTATO
                         </a>
@@ -71,7 +95,13 @@ const Header = props => {
             <div className={state.showMobileMenu ? "moblileMenu active" : "moblileMenu"}>
 
 
-                <div className="linksMobile">
+                <div
+                    className="linksMobile"
+                    onClick={e => {
+                        console.log('ppk')
+                        return window.location.href = "#Home"
+                    }}
+                >
                     <span>
                         <a href="#Home">
                             HOME
@@ -81,7 +111,13 @@ const Header = props => {
 
                 <hr />
 
-                <div className="linksMobile">
+                <div
+                    className="linksMobile"
+                    onClick={e => {
+                        console.log('ppk')
+                        return window.location.href = "#About"
+                    }}
+                >
                     <a href="#About">
                         ABOUT
                     </a>
@@ -89,7 +125,13 @@ const Header = props => {
 
                 <hr />
 
-                <div className="linksMobile">
+                <div
+                    className="linksMobile"
+                    onClick={e => {
+                        console.log('ppk')
+                        return window.location.href = "#PROJETOS"
+                    }}
+                >
                     <a href="#PROJETOS">
                         PROJETOS
                     </a>
@@ -97,7 +139,13 @@ const Header = props => {
 
                 <hr />
 
-                <div className="linksMobile">
+                <div
+                    className="linksMobile"
+                    onClick={e => {
+                        console.log('ppk')
+                        return window.location.href = "#CONTATO"
+                    }}
+                >
                     <a href="#CONTATO">
                         CONTATO
                     </a>
