@@ -58,3 +58,10 @@
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 450px ) {
+    .footer div, .footer h3 {
+        max-width: 80vw;
+        min-width: 200px;
+    }
+}

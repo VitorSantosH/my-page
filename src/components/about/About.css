@@ -67,3 +67,12 @@
         margin-bottom: 3rem;
     }
 }
+
+@media only screen and (max-width: 450px)  {
+    .aboutMe {
+       min-width: 70vw;
+    }
+    .title  h3 {
+        padding: 1rem;
+    }
+}

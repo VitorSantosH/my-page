@@ -5,13 +5,17 @@ import Bricks from "../bricks/Bricks";
 import Ofertas from "../ofertas/Ofertas";
 
 
+//ASSETS 
+import setaDupla from '../../assets/setaDupla.png';
+
+
 const Home = props => {
 
     return (
 
         <>
             <section id="Home">
-                
+
             </section>
             <div className="home" >
 
@@ -28,14 +32,25 @@ const Home = props => {
                         Entre em contato comigo e faça um orçamento
                     </h3>
 
-                    <div className="btnGeral">
+                    <div
+                        className="btnGeral"
+                        onClick={e => {
+
+                            window.location.href = "https://api.whatsapp.com/send?phone=5531996400879&text=Olá, entrei em contato através do seu site e gostaria de obter mais informações. Podemos conversar?"
+
+                        }}
+                    >
                         WhatsApp
                     </div>
 
+                    <div className="setaDuplaHome">
+                        <img src={setaDupla} alt="" />
+                    </div>
+
                 </div>
-              
+                <Ofertas />
                 <Bricks />
-                <Ofertas/>
+
 
                 <div className="about" id="about">
 
@@ -51,7 +66,7 @@ const Home = props => {
                         </h3>
 
                         <h3>
-                            principalmente em termos de programação e tecnologia
+                            Principalmente em termos de programação e tecnologia
                         </h3>
 
                     </div>

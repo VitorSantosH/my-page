@@ -21,15 +21,18 @@ const Ofertas = props => {
                 </h2>
                 <span>
 
-                    Site profissional, moderno e completo
-                    Até 5 páginas (home, sobre nós, contato)
-                    Site super veloz, garantia de nota alta na ferramenta de velocidade
-                    Design responsivo (amigável para navegação mobile)
-                    Botão Flutuante Whatsapp
-                    Site Seguro (com https://)
-                    Link para suas redes sociais
-                    Suporte, hospedagem,  manutenção, backup  e alterações de texto e imagens inclusas na mensalidade
-                    Manutenção e servidor por R$40 mensais
+                    <li>  Site profissional, moderno e completo</li>
+                    <li>  Até 5 páginas (home, sobre nós, contato)</li>
+                    <li>  Site super veloz, garantia de nota alta na ferramenta de velocidade</li>
+                    <li>  Design responsivo (amigável para navegação mobile)</li>
+                    <li>  Botão Flutuante Whatsapp</li>
+                    <li>  Site Seguro (com https://)</li>
+                    <li>Link para suas redes sociais
+                        Suporte, hospedagem,  manutenção, backup  e alterações de texto e imagens inclusas na <span
+                            className="redText"
+                        >
+                            mensalidade
+                            Manutenção e servidor por R$40 mensais</span></li>
 
                 </span>
 
@@ -50,16 +53,17 @@ const Ofertas = props => {
                 </h2>
                 <span>
 
-                    Site profissional,  moderno e completo
-                    Manutenção e servidor por R$80 mensais
-                    Design responsivo (amigável para navegação mobile)
-                    Botão Flutuante Whatsapp
-                    Site Seguro (com https://)
-                    Link para suas redes sociais
-                    Suporte, hospedagem,  manutenção, backup  e alterações de texto e imagens inclusas na mensalidade
-                    30 backups diários
-                    Entrega em prazo acordado com clientes
-                    Consulte-nos para saber mais
+                    <li>Site profissional,  moderno e completo</li>
+                    <li>  Manutenção e servidor por <span className="redText">
+                        R$80 mensais</span></li>
+                    <li> Design responsivo (amigável para navegação mobile)</li>
+                    <li> Botão Flutuante Whatsapp</li>
+                    <li> Site Seguro (com https://)</li>
+                    <li>Link para suas redes sociais</li>
+                    <li> Suporte, hospedagem,  manutenção, backup  e alterações de texto e imagens inclusas na mensalidade</li>
+
+                    <li> Entrega em prazo acordado com clientes
+                        Consulte-nos para saber mais</li>
 
                 </span>
 
